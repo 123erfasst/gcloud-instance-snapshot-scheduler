@@ -1,0 +1,13 @@
+cron:
+  - description: daily start job
+    url: /start
+    schedule: every mon,tue,wed,thu,fri 07:00
+    target: gcloud-instance-snapshot-scheduler
+  - description: daily stop job
+    url: /stop
+    schedule: every mon,tue,wed,thu,fri 18:00
+    target: gcloud-instance-snapshot-scheduler
+  - description: daily snapshot
+    url: /create/instance-zone-name/instance-disk-name?format=diskName-YYYY-MM-DD-HH-mm&guestFlush=true
+    schedule: every day 03:00
+    target: gcloud-instance-snapshot-scheduler
