@@ -1,4 +1,4 @@
-service: gcloud-instance-scheduler
+service: gcloud-instance-snapshot-scheduler
 runtime: nodejs
 env: flex
 manual_scaling:
