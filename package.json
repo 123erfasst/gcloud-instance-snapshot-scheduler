@@ -1,5 +1,5 @@
 {
-  "name": "gcloud-instance-scheduler",
+  "name": "gcloud-instance-snapshot-scheduler",
   "version": "1.0.0",
   "description": "App Engine in Node.js, that will start and stop Compute Engine instances and create Snapshots automatically.",
   "main": "index.js",
@@ -25,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/123erfasst/gcloud-instance-scheduler.git"
+    "url": "git+https://github.com/123erfasst/gcloud-instance-snapshot-scheduler.git"
   }
 }
