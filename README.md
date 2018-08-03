@@ -22,7 +22,7 @@ This is an App Engine in Node.js, that will start and stop your Compute Engine i
       - description: daily snapshot
         url: /create/instance-zone-name/instance-disk-name?format=diskName-YYYY-MM-DD-HH-mm&guestFlush=true
         schedule: every day 03:00
-        target: gcloud-snapshot-scheduler
+        target: gcloud-instance-snapshot-scheduler
     ```
 
 4. Deploy your App Engine. You can find more information about deploying your App Engine [here](https://cloud.google.com/appengine/docs/flexible/nodejs/quickstart)
